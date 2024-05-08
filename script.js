@@ -2,7 +2,6 @@ const coin = document.getElementById("coin");
 const circle = document.querySelector('.circle');
 const result = document.querySelector('.result');
 const income = document.getElementById("income");
-const btn = document.getElementById('btn');
 
 // اگر مقدار coins در localStorage وجود ندارد، آن را با 0 مقداردهی اولیه کنید
 if (!localStorage.getItem('coins')) {
@@ -40,7 +39,3 @@ coin.addEventListener("click", function(event) {
 
 result.textContent = localStorage.getItem("coins");
 localStorage.setItem('income', '1');
-
-btn.addEventListener('click', function() {
-
-})
