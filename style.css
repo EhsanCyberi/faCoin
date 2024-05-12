@@ -7,6 +7,11 @@ body {
     background-color: rgb(28, 28, 28);
 }
 
+html {
+    font-family: system-ui;
+    font-weight: 900;
+}
+
 .all {
     display: flex;
     justify-content: center;
@@ -53,7 +58,6 @@ body {
 
 .txt-coin {
     margin-top: 55px;
-    font-family: fantasy;
     font-size: 60px;
 }
 
@@ -66,13 +70,11 @@ body {
     z-index: 10;
     animation: fadeOut 1s ease forwards;
     font-size: large;
-    font-family: fantasy;
 }
 
 .result {
     color: aliceblue;
     font-size: 35px;
-    font-family: fantasy;
     margin: 10px;
     position: absolute;
     top: 30px;
@@ -80,7 +82,6 @@ body {
 
 .txt {
     color: #294770;
-    font-family: fantasy;
     position: absolute;
     top: 82px;
 }
@@ -88,7 +89,6 @@ body {
 .footer {
     display: flex;
     margin-top: 100px;
-    font-family: fantasy;
 }
 
 .income {
