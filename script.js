@@ -17,7 +17,7 @@ if (!localStorage.getItem('coins')) {
 
 let taps = localStorage.getItem("taps");
 if (!taps) {
-    taps = "10"; // مقدار پیش‌فرض برای taps
+    taps = "100"; // مقدار پیش‌فرض برای taps
 }
 
 income.innerHTML = taps;
