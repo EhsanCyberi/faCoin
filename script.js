@@ -10,6 +10,10 @@ if (!localStorage.getItem('coins')) {
 }
 
 let taps = localStorage.getItem("taps");
+if (!taps) {
+    taps = "10"; // مقدار پیش‌فرض برای taps
+}
+
 income.innerHTML = taps;
 
 let saveNumber = localStorage.getItem('coins');
@@ -36,11 +40,11 @@ coin.addEventListener("click", function(event) {
 
     // ذخیره مقدار جدید coins در localStorage
     localStorage.setItem('coins', count.toString());
-})
+});
 
 result.textContent = localStorage.getItem("coins");
-localStorage.setItem('income', '1');
 
+// تابع مرتبط با دکمه btn را تعریف کنید
 btn.addEventListener('click', function() {
-
-})
+    // اینجا کد مرتبط با دکمه btn را بنویسید
+});
