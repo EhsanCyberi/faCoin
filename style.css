@@ -70,7 +70,7 @@ html {
     display: none;
     z-index: 10;
     animation: fadeOut 1s ease forwards;
-    font-size: x-large;
+    font-size: large;
 }
 
 .result {
@@ -94,7 +94,7 @@ html {
 }
 
 .income {
-    margin: 8px;
+    margin: 10px;
     border: 1px solid white;
     padding: 4px 15px;
     border-radius: 7px;
