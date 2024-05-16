@@ -71,7 +71,7 @@ html {
     display: none;
     z-index: 10;
     animation: fadeOut 1s ease forwards;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .result {
