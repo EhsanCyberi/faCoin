@@ -34,7 +34,7 @@ coin.addEventListener("click", function(event) {
     let pageY = event.pageY;
     num.style.top = pageY + "px";
     num.style.left = pageX + "px";
-    num.style.animation = "fadeIn 0.5s ease-in-out;";
+    num.style.animation = "fadeIn 0.7s ease-in-out;";
     num.style.display = "block";
 
     count += Number(taps);
